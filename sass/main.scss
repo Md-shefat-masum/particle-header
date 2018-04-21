@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+//default color
+$black:#000;
+$white:#ffff;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+//responsive iamge
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  line-height: 0px;
+}
+
+//float-left
+.left {
+  float: left;
+}
+
+//float-right
+.fight {
+  float: right;
+}
+
+//display flex
+.d-flex {
+  display: flex;
+}
+
+//flex-center
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+//flex-direction-row
+.flex-d-row {
+  flex-direction: row;
+}
+
+//flex-direction column
+.flex-d-col {
+  flex-direction: column;
+}
+
+//cointaiter width
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+// two item one half
+.half {
+  float: left;
+  width: 50%;
+}
+
+//button default
+.btn {
+  border: none;
+  outline: none;
+  background: $black;
+  border-radius: 3px;
+  padding: 15px 30px;
+  color: $white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+//clarfix
+.clear {
+  clear: both;
+}
+
+//text-center
+.text-center {
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background: #16a085;
+  color: #fff;
+}
+
+.header__inner {
+  height: 100vh;
+  padding: 0px 20px;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  bottom:0px;
+  right:0px;
+  background: transparent;
+  h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 3px solid $white;
+    padding-bottom: 40px;
+    margin: 0px;
+  }
+  p {
+   font-size: 18px;
+    padding-top: 30px;
+  }
+}
+
+@import "responsive";
